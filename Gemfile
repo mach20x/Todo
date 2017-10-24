@@ -13,6 +13,13 @@ gem 'rails', '~> 5.1.4'
 # gem 'sqlite3', group: :development
 # #use PostgreSQL
 # gem 'pg', group: :production
+#for production -->
+# group :producion do
+#   #to serve stati statistics
+#   #in heroku
+#   gem 'rails_12factor'
+# end
+#PostgreSQL server
 gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
